@@ -4,6 +4,7 @@
 ## HOW TO LAUNCH:
 Run program in Main.java
 
+### FILES:
 Main.java
 * Handles Player and Casino class creation and launches file reading and writing classes.
 
@@ -28,7 +29,7 @@ ResultWriter.java
  + Illegal players UID and first illegal action;
  + Casino balance after all legal matches have been made.
 
-## ADDITIONAL FILES
+### ADDITIONAL FILES:
 * match_data.txt - example match data file for task.
 * player_data.txt - example player data file for task.
 * result.txt - example results file for task.
