@@ -19,7 +19,7 @@ public class Casino {
     }
 
     public void handleTransactions(List<Player> players) {
-        for (int i = 0; i < players.size(); i++) {
+        outerloop: for (int i = 0; i < players.size(); i++) {
             List<String> uniqueMatchID = new ArrayList<>();
             Player player = players.get(i);
             currBalance = 0L;
@@ -38,6 +38,7 @@ public class Casino {
                                 Illegals curr_illegal = new Illegals(currentAction); // ADD TO ILLEGALS
                                 player.setLegalityState(); // SET PLAYER AS ILLEGAL
                                 illegals.add(curr_illegal); // ADD TO ILLEGALS
+                                break outerloop; // BREAK OUTER LOOP FOR BETTER TIME COMPLEXITY
                             } else {
                                 player.setBalance(-Integer.parseInt(currentAction[3]));
                                 uniqueMatchID.add(currentAction[3]);
@@ -55,6 +56,7 @@ public class Casino {
                             Illegals curr_illegal = new Illegals(currentAction);
                             player.setLegalityState(); // SET PLAYER AS ILLEGAL
                             illegals.add(curr_illegal); // ADD TO ILLEGALS
+                            break outerloop; // BREAK OUTER LOOP FOR BETTER TIME COMPLEXITY
                         } else {
                             player.setBalance(-Integer.parseInt(currentAction[3])); // REMOVE MONEY FROM BALANCE
                         }
