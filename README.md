@@ -23,7 +23,7 @@ PlayerReader.java
 Matches.java
 * Takes in file name in constructor and saves information about matches to a list. Has one function getMatches() to return all matches.
 
-ResultWriter.java
+ResultWriter.java \n
 Creates and writes into "Results.txt" file:
  * legal players UID, account balance and win/loss ratio;
  * Illegal players UID and first illegal action;
