@@ -25,9 +25,9 @@ Matches.java
 
 ResultWriter.java
 * Creates and writes into "Results.txt" file:
- + legal players UID, account balance and win/loss ratio;
- + Illegal players UID and first illegal action;
- + Casino balance after all legal matches have been made.
+ ** legal players UID, account balance and win/loss ratio;
+ ** Illegal players UID and first illegal action;
+ ** Casino balance after all legal matches have been made.
 
 ## ADDITIONAL FILES:
 * match_data.txt - example match data file for task.
