@@ -24,10 +24,10 @@ Matches.java
 * Takes in file name in constructor and saves information about matches to a list. Has one function getMatches() to return all matches.
 
 ResultWriter.java
-* Creates and writes into "Results.txt" file:
- ** legal players UID, account balance and win/loss ratio;
- ** Illegal players UID and first illegal action;
- ** Casino balance after all legal matches have been made.
+Creates and writes into "Results.txt" file:
+ * legal players UID, account balance and win/loss ratio;
+ * Illegal players UID and first illegal action;
+ * Casino balance after all legal matches have been made.
 
 ## ADDITIONAL FILES:
 * match_data.txt - example match data file for task.
