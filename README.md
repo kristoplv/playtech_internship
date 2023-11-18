@@ -39,4 +39,4 @@ Creates and writes into "Results.txt" file:
 ## PROBLEMS
 
 My result on player and casino final balance (player: 2225, casino: 575) differes from given example by playtech by 500 (player: 2725, casino: 75) but i went through
-the given data by hand and computer and i still get 2225 and 575 not 2725 and 75. Only works when you don't read one of the 500 coin bet by player 1 (But it is a legal move).
+the given data by hand and computer and i still get 2225 and 575 not 2725 and 75. Only works when you don't read the 500 coin bet (lose) by player 1 (But it is a legal move).
