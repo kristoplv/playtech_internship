@@ -2,7 +2,7 @@
 
 
 ## HOW TO LAUNCH:
-Run program in Main.java
+java Main in terminal or Run in Visual studio
 
 ## FILES:
 Main.java
